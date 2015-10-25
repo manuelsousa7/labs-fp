@@ -1,0 +1,63 @@
+1.
+(a-duvida) Os simbolos terminais são:  "e i o u" e "b c d f g h j l m n p q r s t v x z"
+Os imbolos não terminais são: 
+
+(b) asno - gato - vaca
+
+2. (a-duvida) Os simbolos terminais são:  
+Os imbolos não terminais são: 
+
+(b) ABCD - AAAAB12
+
+(c) Sim Podem ser as mesmas
+
+3.
+
+(a-duvida) Os simbolos terminais são:  
+Os imbolos não terminais são: 
+
+(b)
+
+
+4.
+
+(a)
+
+<tempo>::=<horas>:<minutos>:<segundos> 
+<horas>::=<digitoH1>
+<digitoH1>::= (0|1)<digito1> | 2<digito2>		
+<minutos>::= <digito3><digito2>
+<segundos>::= <digito3><digito2>
+<digito1>::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<digito2>::= 0 | 1 | 2 | 3
+<digito3>::= 0 | 1 | 2 | 3 | 4 | 5 
+
+(b-duvida)
+
+5.
+
+
+
+8.
+
+<codigo_postal>::=<digitoN0><digito><digito><digito>-<digito><digito><digito>
+<digito>::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<digitoN0>::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+
+9.
+
+(a)
+
+<matriculas>::=<letras>-<numeros>-<numeros> | <numeros>-<letras>-<numeros> | <numeros>-<numeros>-<letras>
+<letras>::= <letra><letra>
+<letra>::= A | B | C | D | E | F | G | H | Y | J | L | M | N | O | P  | Q  | R  | S | T  U | V | X | Z  | W | Y | K
+<numeros>::= <numero><numero>
+<numero>::= 0 | 1 | 2 |3 | 4 | 5 | 6 | 7 |8 | 9
+
+(b-duvida)
+
+
+AVALIAÇÃO
+
+<palavra>::=c<letra>+r
+<letra>::= a | d
